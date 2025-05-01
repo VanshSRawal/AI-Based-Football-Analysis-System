@@ -7,7 +7,7 @@ A computer vision pipeline using **YOLOv8**, **object tracking**, and advanced a
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -38,20 +38,20 @@ A computer vision pipeline using **YOLOv8**, **object tracking**, and advanced a
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
 | Feature               | Description |
 |-----------------------|-------------|
-| 🎯 Player Tracking     | YOLOv8 + ByteTrack used for ID-level tracking |
-| ⚽ Ball Possession     | Assigned based on proximity of players to ball |
-| 🟦 Team Identification | KMeans color clustering from jerseys |
-| 📉 Speed & Distance    | Calculated using frame rate and perspective mapping |
-| 📊 Accuracy Evaluation | Measures consistency of tracking and labeling |
-| 🎥 Visual Overlays     | Draws player ellipses, team color, possession arrows, etc. |
+|  Player Tracking     | YOLOv8 + ByteTrack used for ID-level tracking |
+|  Ball Possession     | Assigned based on proximity of players to ball |
+|  Team Identification | KMeans color clustering from jerseys |
+|  Speed & Distance    | Calculated using frame rate and perspective mapping |
+|  Accuracy Evaluation | Measures consistency of tracking and labeling |
+|  Visual Overlays     | Draws player ellipses, team color, possession arrows, etc. |
 
 ---
 
-## 🔍 Dataset Used
+##  Dataset Used
 
 - **Source:** [Roboflow Universe - Football Players Detection](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1)
 - Contains labeled images of `player`, `referee`, and `ball`
@@ -59,7 +59,7 @@ A computer vision pipeline using **YOLOv8**, **object tracking**, and advanced a
 
 ---
 
-## 🧪 Model Training
+##  Model Training
 
 Model training was performed using Google Colab:  
 ➡️ [Open Training Notebook](https://colab.research.google.com/drive/1lTmvPfDC65MEhIXXx2zfsZkPe20_jD8G?usp=sharing)
@@ -70,7 +70,7 @@ Model training was performed using Google Colab:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository**
 ```bash
@@ -99,7 +99,7 @@ python evaluate_accuracy/evaluate_accuracy.py
 
 ---
 
-## 📈 Accuracy Metrics Output
+##  Accuracy Metrics Output
 
 - **Ball Possession Accuracy:** `100.0%`
 - **Player Tracking Consistency:** `60.6%`
@@ -111,14 +111,14 @@ Two visuals are also generated:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Input/output videos and model weights are excluded due to GitHub's 25MB limit.
 - The dataset is publicly available and the training notebook can reproduce the model.
 
 ---
 
-## 📝 Acknowledgements
+##  Acknowledgements
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Roboflow Universe Dataset](https://universe.roboflow.com/)
