@@ -1,6 +1,9 @@
-# ⚽ AI-Powered Football Video Analysis System
+# AI-Powered Football Video Analysis System
 
 A computer vision pipeline using **YOLOv8**, **object tracking**, and advanced analytics to extract insights from football match footage. This project detects players, referees, and the ball, and analyzes their movements, speeds, team assignments, and ball possession.
+
+![image](https://github.com/user-attachments/assets/044e2489-c86d-4176-a00a-73b24cd60b8d)
+
 
 ---
 
