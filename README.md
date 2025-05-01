@@ -11,14 +11,26 @@ A computer vision pipeline using **YOLOv8**, **object tracking**, and advanced a
 ├── main.py                            # End-to-end pipeline to process video
 ├── yolo_inference.py                 # YOLOv8 object detection demo
 ├── yolo_football_training.ipynb      # Google Colab training notebook
-├── evaluate_accuracy/                # Accuracy evaluation & visualization
-├── trackers/, team_assigner/, etc.   # Modular logic for tracking, teams, etc.
-├── stubs/                            # Cached inference and motion data
-├── utils/                            # Utility functions and helpers
-├── input_videos/                     # [Excluded] Raw input match clips
-├── output_videos/                    # [Excluded] Annotated output videos
 ├── accuracy_report.csv               # Accuracy metrics in tabular form
-├── *.png                             # Accuracy charts
+├── evaluation_accuracy_summary.png   # Accuracy summary bar chart
+├── player_visibility_chart.png       # Player-wise visibility chart
+├── README.md                         # Project documentation
+├── camera_movement_estimator/        # Camera motion estimation logic
+├── development_and_analysis/         # Optional dev notebooks/scripts
+├── evaluate_accuracy/                # Accuracy analysis scripts
+├── input_videos/                     # [Excluded] Input football match clips
+├── models/                           # [Excluded] Trained YOLOv8 model weights
+├── output_videos/                    # [Excluded] Annotated output video
+├── player_ball_assigner/             # Ball-player assignment logic
+├── runs/                             # YOLO training outputs (if any)
+├── screenshots/                      # Demo visuals or logs
+├── speed_and_distance_estimator/     # Speed & distance calculation
+├── stubs/                            # Cached track/motion data (pickles)
+├── team_assigner/                    # Team clustering using jersey colors
+├── trackers/                         # YOLO + ByteTrack tracking pipeline
+├── training/                         # Training code or configs
+├── utils/                            # Utility functions
+├── view_transformer/                 # Perspective view transformation
 ```
 
 ---
